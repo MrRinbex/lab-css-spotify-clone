@@ -6,3 +6,161 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* head party */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    background-color: #FFF;
+    width: 100%;
+    height: 70px;
+  }
+  
+  nav {
+    width: 50%; 
+    right: 25%;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+  }
+  nav li {
+    font-size: 1.2rem;
+    padding-left: 5%;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem bold ;
+  }
+  
+  .logo-spotify{
+    width: 180px;
+    margin-left: 1rem;
+  }
+
+#main{
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    z-index:0;
+}
+#main h1{
+    position: absolute;
+    top: 40%;
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    width: 100%;
+    margin: auto;
+    left: 3%;
+}
+#main p{
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    width: 36%; 
+    left: 35%;
+    padding-top: 30px;
+}
+#triple-box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+#triple-box h2{
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline #00B172;
+    padding-bottom: 3%;
+}
+.article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-left: 6%;
+}
+.article img{
+width: 100px;
+}
+.article article{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around ;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.article h3{
+    color:#00B172;
+    font-size: 1.2rem;
+}
+.article p {
+    width: 60%;
+    text-align: center;
+}
+#green-box{
+    background-color: #00B172;
+    padding: 4rem 7rem;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    height: 639px;
+    width: 430px;
+}
+#green-box h2{
+    font-size: 2.2rem;
+    text-decoration: underline #FFF;
+}
+#green-box h3{
+    padding-bottom: 15px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+#green-box p{
+    width: 56%;
+    font-size: large;
+    text-align: justify;
+}
+.white-icon{
+    width: 160px;
+    height: 130px;
+    margin-top: 19%;
+}
+.img-app{
+    width: 360px;
+    margin-left: 40px;
+
+}
+
+
